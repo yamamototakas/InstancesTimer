@@ -6,6 +6,7 @@ var index_wired = rewire('./../index.js');
 //var event = require('./../event.json');
 //var context = require('./../context.json');
 
+
 var AWS = require('aws-sdk');
 var ec2 = new AWS.EC2({
     apiVersion: '2016-04-01',
