@@ -1,0 +1,22 @@
+{
+  "name": "instances-timer",
+  "version": "1.0.0",
+  "description": "timer for aws lambda",
+  "main": "InstancesTimer.js",
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://localhost/npm/InstancedTimer.git"
+  },
+  "author": "tyama",
+  "license": "MIT",
+  "devDependencies": {
+    "aws-sdk": "^2.7.14",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "rewire": "^2.5.2",
+    "sinon": "^1.17.6"
+  }
+}
