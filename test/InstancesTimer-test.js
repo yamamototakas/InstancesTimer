@@ -3,8 +3,8 @@ var expect = chai.expect; // we are using the "expect" style of Chai
 var rewire = require('rewire');
 var index_wired = rewire('./../index.js');
 
-var event = require('./../event.json');
-var context = require('./../context.json');
+//var event = require('./../event.json');
+//var context = require('./../context.json');
 
 var AWS = require('aws-sdk');
 var ec2 = new AWS.EC2({
