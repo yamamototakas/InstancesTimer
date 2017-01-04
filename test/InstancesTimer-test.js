@@ -25,6 +25,7 @@ var ec2params = {
 
 };
 
+
 describe('InstacesTimer', function() {
     describe('validate-timer', function() {
         var validate_timer = index_wired.__get__('validateTimer');
